@@ -60,7 +60,7 @@ else:
 # Question 3 starts here
 
 # Create a list named student
-student = []  # Student [SID, Name, Gender, Course Name, CGPA
+student = []  # Student [SID, Name, Gender, Course Name, CGPA]
 
 student.append(int(input("Enter your SID ")))  # add SID as integer to first index
 student.append(input("Enter your Name "))   # add name as string to second index
