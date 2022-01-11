@@ -43,13 +43,14 @@ net_inc = gross_inc - tax_inc
 
 # Printing the Gross income of user
 print("Your gross income is " + str(gross_inc) + "$")
-print("Your net income is " + str(net_inc) + "$")
 
 # If taxable income comes out to be negative then user don't have to pay tax, so taxable income = 0$
 if tax_inc < 0:
     print("Taxable income = 0$")
+    print("net income = " + str(gross_inc) + "$")
 else:
     print("Taxable income = " + str(tax_inc) + "$")
+    print("Your net income is " + str(net_inc) + "$")
 
 # End
 
